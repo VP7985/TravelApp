@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Travel App</string>
+
+    <string name="nameApp">Travel App</string>
+    <string name="subtitleNameApp">For Tourist</string>
+    <string name="versionApp">v2.6</string>
+    <string name="copyright">Copyright © 2024 Parth Vadodariya</string>
+    <string name="titleLogin">Welcome to Travel App</string>
+    <string name="channel_name">Travel App v2.6 (BETA)</string>
+    <string name="channel_desc">Application Travel India</string>
+</resources>

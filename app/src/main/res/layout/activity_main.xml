@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/bgColorSplash">
+
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_marginTop="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/logo_splash"
+        android:transitionName="logo_img"/>
+
+    <TextView
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:id="@+id/tv_nameApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nameApp"
+        android:textSize="60dp"
+        android:fontFamily="@font/aremat_font"
+        android:textColor="@color/title"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/aremat_font"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_sub_nameApp"
+        android:text="@string/subtitleNameApp"
+        android:textSize="25dp"
+        android:transitionName="textnameApp"
+        android:textColor="@color/title"/>
+    <TextView
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_copyright"
+        android:text="@string/versionApp"
+        android:textSize="15dp"
+        android:textColor="@color/grey2"/>
+
+</LinearLayout>

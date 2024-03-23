@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bar_call_center"
+        android:title="Call Center" />
+    <item
+        android:id="@+id/bar_email"
+        android:title="Email" />
+    <item
+        android:id="@+id/bar_loc"
+        android:title="Location" />
+    <item
+        android:id="@+id/bar_edit_user"
+        android:title="Edit User" />
+    <item
+        android:id="@+id/bar_logout"
+        android:title="Logout" />
+</menu>
